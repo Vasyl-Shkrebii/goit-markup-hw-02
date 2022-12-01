@@ -11,6 +11,10 @@
     --letter-spacing-hero: 0.06em;
     --letter-spacing-tel-email: 0.02em;
 }
+
+body{
+    font-family: 'roboto';
+}
 .line{
     text-decoration-line: none;
 }
@@ -20,7 +24,7 @@
 
 .header{
     background-color: #FFFFFF;
-    width: 1600px;
+    
 }
 .link-logo{
     color: var(--blue-color);
@@ -42,58 +46,23 @@
     letter-spacing: var(--letter-spacing-text);
  
 }
-.link-nav-studio{
-color: var(--h-color);
-width: 45px;
-height: 16px;
-font-family: 'roboto';
-font-weight: bold; 
+.link-nav{
+color: var(--h-color); 
+font-size: 14px;
+font-weight: 500;
+line-height: 16.41px;
 letter-spacing: var(--letter-spacing-tel-email);  
 }
-.link-nav-studio:hover, .link-nav-studio:focus{color: #2196F3}
+.link-nav:hover, .link-nav:focus{color: #2196F3}
 
-
-.link-nav-portfolio{
-    color: var(--h-color);
-    width: 72px;
-    height: 16px;
-    font-family: 'roboto' ;
-    font-weight: bold; 
-    letter-spacing: var(--letter-spacing-tel-email);
-    }
-.link-nav-portfolio:hover, .link-nav-portfolio:focus{color: #2196F3;}
-
-.link-nav-contacts{
-    color: var(--h-color);
-    width: 64px;
-    height: 16px;
-    font-family: 'roboto' ;
-    font-weight: bold; 
-    letter-spacing: var(--letter-spacing-tel-email);
-
-}
-.link-nav-contacts:hover, .link-nav-contacts:focus{color: #2196F3;}
-
-
-.link-email {
+.link-email-tel-text {
     color: var(--p-color);
-    width: 135px;
-    height: 16px;
-    font-family:'roboto' ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
     letter-spacing: var(--letter-spacing-tel-email);
 }
-.link-email:hover, .link-email:focus{color: #2196F3;}
-
-.link-tel  {
-    color: var(--p-color);
-    width: 122px;
-    height: 16px;
-    font-family:'roboto' ;
-    letter-spacing: var(--letter-spacing-tel-email);
-   
-}
-.link-tel:hover, .link-tel:focus{color: #2196F3;}
-
+.link-email-tel-text:hover, .link-email:focus{color: #2196F3;}
 
 
 .hero{
@@ -103,8 +72,9 @@ letter-spacing: var(--letter-spacing-tel-email);
 
 .hero-title{
     color: var(--while-color);
-    font-family: 'roboto' ;
-    width: 696px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
    letter-spacing: var(--letter-spacing-hero);
    text-align: center;
 }
@@ -112,9 +82,11 @@ letter-spacing: var(--letter-spacing-tel-email);
     background-color: #2196F3;
     color: #FFFFFF;
     border: none;
-    width: 216px;
-    height: 50px;
-    top: 430px;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: var(--letter-spacing-hero) ;
 }
 
 
@@ -123,33 +95,49 @@ letter-spacing: var(--letter-spacing-tel-email);
 }
 .characteristics-title{
     color: #212121;
-    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
     letter-spacing: var(--letter-spacing-text);
 
 }
 .characteristics-text{
     color: var(--p-color);
-    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: var(--letter-spacing-text);
 }
 
 .work-title{
     color: #212121;
-    font-family: 'roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: var(--letter-spacing-text);
 }
 
 .team{
     color: #212121;
-    font-family: 'roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: var(--letter-spacing-text);
 }
 
 .team-resume-name{
     color: #212121;
-    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: var(--letter-spacing-text);
 }
 .team-resume-position{
     color: #757575;
-    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: var(--letter-spacing-text);
 
 }
 .footer{
@@ -180,46 +168,48 @@ letter-spacing: var(--letter-spacing-tel-email);
 }
 .address-footer{
     color: #FFFFFF;
-    font-family: 'roboto';}
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: var(--letter-spacing-tel-email);
+}
 
-    .link-email-footer{
-        color: var(--p-color);
-    width: 135px;
-    height: 16px;
-    font-family:'roboto' ;
+    .link-email-tel-footer{
+    color: var(--p-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: var(--letter-spacing-tel-email);
     }
-    .link-email-footer:hover, .link-email-footer:focus{color: #2196F3;}
+    .link-email-tel-footer:hover, .link-email-tel-footer:focus{color: #2196F3;}
 
-    .link-tel-footer{
-        color: var(--p-color);
-    width: 122px;
-    height: 16px;
-    font-family:'roboto' ;
-    letter-spacing: var(--letter-spacing-tel-email);
-    }
-    .link-tel-footer:hover, .link-tel-footer:focus{color: #2196F3;}
-
-
-
+    
     .header-portfolio{
         background-color: #FFFFFF;
-        width: 1600px;}
-
+    }
     .button-portfolio{
     background-color: #F5F4FA;
     color: #212121;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: var(--letter-spacing-text);
     border: none;
     }
     .button-portfolio:hover, .button-portfolio:focus{background-color: #2196F3; color: #FFFFFF;}
     
     .portfolio-title{
     color: #212121;
-    font-family: 'roboto';
-    letter-spacing: var(--letter-spacing-text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: var(--letter-spacing-hero);
     }
     .portfolio-text{
-        color: var(--p-color);
-    font-family: 'roboto';
+    color: var(--p-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
     letter-spacing: var(--letter-spacing-text);
     }
